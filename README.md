@@ -1,4 +1,4 @@
-## Custom hook for react: useWindowSize
+## A custom hook for react: useWindowSize
 
 ### Demo (Codepen)
 
