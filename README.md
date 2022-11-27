@@ -1,5 +1,9 @@
 ## Custom hook for react: useWindowSize
 
+### Demo (Codepen)
+
+https://codepen.io/ferdotnet/pen/gOKKRJE
+
 ### Install
 
 ```yarn add @ferdotnet/use-window-size```
