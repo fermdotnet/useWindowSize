@@ -18,8 +18,8 @@
     "prepublishOnly": "yarn build"
   },
   "devDependencies": {
-    "react": "last",
-    "@types/react": "last",
+    "react": "latest",
+    "@types/react": "latest",
     "typescript": "^4.6.2"
   },
   "files": [
