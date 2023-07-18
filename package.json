@@ -1,6 +1,6 @@
 {
   "name": "@ferdotnet/use-window-size",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -18,9 +18,9 @@
     "prepublishOnly": "npm build"
   },
   "devDependencies": {
-    "react": "latest",
-    "@types/react": "latest",
-    "typescript": "^4.6.2"
+    "react": "^18.2.0",
+    "@types/react": "^18.2.15",
+    "typescript": "^5.1.6"
   },
   "files": [
     "/lib"
