@@ -1,6 +1,6 @@
 {
   "name": "@ferdotnet/use-window-size",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": false,
   "publishConfig": {
     "access": "public"
@@ -12,15 +12,14 @@
   "author": "Fernando Munoz <munioz.fernando@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "npm build:esm && yarn build:cjs",
+    "build": "yarn build:esm && yarn build:cjs",
     "build:esm": "tsc",
     "build:cjs": "tsc --module commonjs --outDir lib/cjs",
-    "prepublishOnly": "npm build"
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
-    "react": "^18.2.0",
-    "@types/react": "^18.2.15",
-    "typescript": "^5.1.6"
+    "react": "17.0.2",
+    "typescript": "^4.6.2"
   },
   "files": [
     "/lib"
